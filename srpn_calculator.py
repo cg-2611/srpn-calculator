@@ -118,7 +118,7 @@ def comment_started(input_string):
 
 
 """
-impute processing
+input processing
 """
 def process_unrecognised_input(unrecognised_input):
     # tell the user their input was not recognised and provide the unrecognised character for reference
