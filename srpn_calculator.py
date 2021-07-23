@@ -1,5 +1,7 @@
-from collections import deque
 import re
+
+from collections import deque
+
 
 srpn_stack = deque() # main stack for storing the users input
 
@@ -233,6 +235,6 @@ def main():
         else:
             format_input(user_input)
 
-            
+
 if __name__ == "__main__":
     main()
